@@ -21,7 +21,7 @@ export default function CheckoutPage() {
         e.preventDefault()
 
         // Validate fields
-        let newErrors: typeof errors = {}
+        const newErrors: typeof errors = {}
         if (!name) newErrors.name = "Name is required"
         if (!address) newErrors.address = "Address is required"
         if (!phone) newErrors.phone = "Phone is required"

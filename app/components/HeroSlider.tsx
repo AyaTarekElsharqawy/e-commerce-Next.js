@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 // Slider data
 const slides = [
@@ -64,12 +65,12 @@ export default function HeroSlider() {
                     <p className="mt-4 text-lg md:text-xl text-brown-800 font-medium">
                         Explore the best products with us
                     </p>
-                    <a
+                    <Link
                         href="/products"
                         className="mt-6 inline-block px-6 py-2 bg-yellow-900 text-white rounded-lg shadow hover:bg-yellow-800 transition"
                     >
                         See More
-                    </a>
+                    </Link>
                 </div>
             </div>
 
