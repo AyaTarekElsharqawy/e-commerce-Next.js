@@ -24,7 +24,7 @@ export default function CartPage() {
     if (!loggedIn) {
       router.push("/login") // Redirect to login if not logged in
     } else {
-      router.push("/checkout") // Redirect to checkout if logged in
+       router.push("/checkout") // Redirect to checkout if logged in
     }
   }
 
