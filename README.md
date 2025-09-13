@@ -17,3 +17,4 @@ This project uses the Next.js App Router and is organized as follows:
 - `public/` — Static assets (images, icons)
 - `app/globals.css` — Global styles (Tailwind CSS)
 
+Implementation period : 2days
